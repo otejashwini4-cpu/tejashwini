@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+  <div class="logo">MyWebsite</div>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="resume.html">Resume</a></li>
+    <li><a href="biodata.html">Biodata</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <div class="hamburger"><div></div><div></div><div></div></div>
+</nav>
+
+<div class="container">
+  <h2>Contact Me</h2>
+
+  <form onsubmit="return validateForm()">
+    <input type="text" id="name" placeholder="Your Name">
+    <input type="email" id="email" placeholder="Your Email">
+    <textarea id="message" placeholder="Your Message" rows="5"></textarea>
+
+    <button type="submit">Send</button>
+  </form>
+</div>
+
+<footer>
+  © 2025 MyWebsite | All Rights Reserved
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
